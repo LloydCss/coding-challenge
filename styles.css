@@ -1,0 +1,76 @@
+/*
+div{
+	width: 80%;
+	height: 300px;
+	background-color: gray;
+	margin: 40px;
+	margin: auto;
+	padding: 40px;
+
+}
+*/
+body{
+	background-color: gray;
+}
+
+
+
+
+.floating-box{
+	display: inline-block;
+	width: 100px;
+	height: 75px;
+	border: 5px solid blue;
+	margin: 10px;
+}
+
+.position-box{
+	width: 40%;
+	height: 100px;
+	background-color: green;
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.other-box{
+	display: inline-block;
+	width: 40%;
+	height: 100px;
+	background-color: blue;
+	margin-left: 10px;
+	margin-right: 2px;
+}
+.this-box{
+	display: inline-block;
+	width: 40%;
+	height: 100px;
+	background-color: red;
+	margin-left: 2px;
+	margin-right: 10px;
+}
+#otherbotbox{
+	width: 40%;
+	height:100px;
+	background-color: black;
+	position: fixed;
+	
+	bottom: 0;
+	left:0;
+	
+}
+ #second{
+ 	width: 200px;
+ 	height:200px;
+ 	background-color: yellow;
+ 	position: absolute;
+
+ }
+ .last-box{
+ 	width: 40%;
+ 	height:100px;
+ 	background-color: purple;
+ 	position: fixed;
+ 	bottom: 0;
+ 	right: 0;
+ }
